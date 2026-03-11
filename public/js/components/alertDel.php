@@ -6,7 +6,7 @@ document.querySelectorAll('.delete-btn').forEach(button => {
 
         Swal.fire({
             title: 'Apakah Anda yakin?',
-            text: "Data kategori ini akan dihapus secara permanen!",
+            text: "Data ini akan dihapus secara permanen!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#ef4444',

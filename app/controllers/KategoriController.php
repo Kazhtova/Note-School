@@ -19,7 +19,14 @@ class KategoriController {
       exit;
     }
 
-    $data_kategori = $this->KategoriModel->getAll();
+    if(isset($_GET['search'])) {
+      $keyword = $_GET['search'];
+
+      $data_kategori = $this->KategoriModel->searchkategori($keyword);
+    }else{
+      $data_kategori = $this->KategoriModel->getAll();
+    }
+
 
     include 'app/views/kategori/index.php';
   }
@@ -61,7 +68,8 @@ class KategoriController {
       header("Location: index.php?act=edit-kategori");
       exit;
     }
-    $id_kategori = $_GET['id_kategori'];
+    $id_kategori = isset($_GET['id_kategori']) ? $_GET['id_kategori'] : die("Error: ID Kosong");
+    $kategori = $this->KategoriModel->getById($id_kategori);
     $data_kategori = $this->KategoriModel->edit($id_kategori);
 
     include 'app/views/kategori/edit.php';

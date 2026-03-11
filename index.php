@@ -4,30 +4,32 @@ session_start();
 
 include_once 'app/controllers/AdminController.php';
 include_once 'app/controllers/KategoriController.php';
+include_once 'app/controllers/CatatanController.php';
 
 $action = isset($_GET['act']) ? $_GET['act'] : 'login';
-$controller = new AdminController();
+$AdminController = new AdminController();
 $KategoriController = new KategoriController();
+$catatanController = new catatanController();
 
 switch ($action) {
     case 'register':
-    $controller->viewRegister();
+    $AdminController->viewRegister();
         break;
 
     case 'register-process':
-    $controller->register();
+    $AdminController->register();
         break;
 
     case 'login':
-    $controller->index();
+    $AdminController->index();
         break;
 
     case 'login-process':
-        $controller->login();
+        $AdminController->login();
         break;
 
     case 'logout':
-        $controller->logout();
+        $AdminController->logout();
         break;
 
     case 'kategori':
@@ -54,12 +56,36 @@ switch ($action) {
       $KategoriController->hapus();
       break;
 
+    case 'catatan':
+      $catatanController->index();
+      break;
+      
+    case 'catatan-tambah':
+      $catatanController->tambah();
+      break;
+      
+    case 'catatan-edit':
+      $catatanController->edit();
+      break;
+      
+    case 'catatan-edit-proses':
+      $catatanController->editproses();
+      break;
+      
+    case 'catatan-tambah-proses':
+      $catatanController->tambahproses();
+      break;
+      
+    case 'catatan-hapus':
+      $catatanController->hapus();
+      break;
+
     case 'dashboard':
-        $controller->dashboard();
-        break;
+      $AdminController->dashboard();
+      break;
 
     default:
-    $controller->index();
+    $AdminController->index();
     break;
 
 }

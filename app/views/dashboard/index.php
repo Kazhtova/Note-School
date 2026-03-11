@@ -21,10 +21,10 @@
 
         <header class="header-top">
             <div class="welcome-text">
-                <h2>Halo, <span
+                <h2><span
                         style="color: var(--primary);"><?php echo isset($_SESSION['username']) ? htmlspecialchars($_SESSION['username']) : 'Admin'; ?></span>!
-                    👋</h2>
-                <p style="color: var(--text-muted);">Selamat datang kembali di dashboard admin.</p>
+                </h2>
+                <p style="color: var(--text-muted);">Selamat datang di dashboard admin.</p>
             </div>
 
             <div class="user-profile">
@@ -40,18 +40,18 @@
 
         <div class="grid-container">
             <div class="stat-card">
-                <div class="icon-box"><i class='bx bx-notepad'></i></div>
+                <div class="icon-box"><i class='bx bx-note'></i></div>
                 <div class="stat-info">
-                    <h3>12</h3>
-                    <p>Total Catatan</p>
+                    <h3><?= htmlspecialchars($data_kategori['total']) ?></h3>
+                    <p>Total Kategori</p>
                 </div>
             </div>
 
             <div class="stat-card">
-                <div class="icon-box"><i class='bx bx-time-five'></i></div>
+                <div class="icon-box"><i class='bx bx-notepad'></i></div>
                 <div class="stat-info">
-                    <h3>5</h3>
-                    <p>Baru Ditambah</p>
+                    <h3><?= htmlspecialchars($data_catatan['total']) ?></h3>
+                    <p>Total Catatan</p>
                 </div>
             </div>
 

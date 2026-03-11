@@ -2,15 +2,22 @@
    
 include_once 'config/database.php';
 include_once 'app/models/AdminModel.php';
+include_once 'app/models/KategoriModel.php';
+include_once 'app/models/CatatanModel.php';
 
 class AdminController{
-    private $adminModel;
+    private $AdminModel;
+    private $CatatanModel;
+    private $KategoriModel;
+
     private $db;
 
     public function __construct(){
         $database = new Database();
         $this->db = $database->getConnection();
-        $this->adminModel = new AdminModel($this->db);
+        $this->AdminModel = new AdminModel($this->db);
+        $this->KategoriModel = new KategoriModel($this->db);
+        $this->CatatanModel = new CatatanModel($this->db);
     }
 
     public function viewRegister(){
@@ -22,7 +29,7 @@ class AdminController{
             $username = $_POST['username'];
             $password = $_POST['password'];
 
-            if($this->adminModel->register($username, $password)){
+            if($this->AdminModel->register($username, $password)){
                 $success = "Register berhasil Silahkan Login";
                 include 'app/views/auth/login.php';
             } else {
@@ -45,7 +52,7 @@ class AdminController{
             $username = $_POST['username'];
             $password = $_POST['password'];
 
-            $admin = $this->adminModel->login($username, $password);
+            $admin = $this->AdminModel->login($username, $password);
 
             if($admin) {
                 $_SESSION['admin_id'] = $admin['id_admin'];
@@ -63,6 +70,8 @@ class AdminController{
             header("Location: index.php");
             exit;
         }
+        $data_kategori = $this->KategoriModel->jumlahDataKategori();
+        $data_catatan = $this->CatatanModel->jumlahDataCatatan();
         include 'app/views/dashboard/index.php';
     }
 

@@ -1,13 +1,11 @@
 <?php
-// Mengambil parameter 'act' dari URL. Jika kosong, asumsikan berada di 'dashboard'
-// Merujuk pada standar W3Schools: PHP $_GET Superglobal
 $current_page = isset($_GET['act']) ? $_GET['act'] : 'dashboard';
 ?>
 
 <nav class="sidebar" id="sidebar">
     <div>
         <div class="brand">
-            <i class='bx bxs-cube-alt'></i> NotesApp
+            <i class='bx bxs-cube-alt'></i> Pencatatan
         </div>
 
         <div class="menu">
@@ -21,9 +19,9 @@ $current_page = isset($_GET['act']) ? $_GET['act'] : 'dashboard';
                 <i class='bx bx-note'></i> <span>Kategori</span>
             </a>
 
-            <a href="index.php?act=kategori-tambah"
-                class="menu-link <?php echo ($current_page === 'kategori-tambah' || $current_page === 'kategori-edit') ? 'active' : ''; ?>">
-                <i class='bx bx-plus-circle'></i> <span>Buat Baru</span>
+            <a href="index.php?act=catatan"
+                class="menu-link <?php echo ($current_page === 'catatan' || $current_page === 'catatan') ? 'active' : ''; ?>">
+                <i class='bx bx-notepad'></i> <span>Catatan</span>
             </a>
         </div>
     </div>
