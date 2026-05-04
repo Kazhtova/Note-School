@@ -89,9 +89,9 @@
         }
 
         .main-content {
-            flex: 1; /* Mengambil sisa ruang */
+            flex: 1;
             padding: 2rem;
-            overflow-y: auto; /* Scroll jika konten panjang */
+            overflow-y: auto;
         }
 
         /* Header atas */
