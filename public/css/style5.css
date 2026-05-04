@@ -41,7 +41,6 @@ body {
     transition: 0.3s;
 }
 .back-link:hover { color: var(--accent); }
-/*  */
 .form-header {
     display: flex;
     align-items: center;
