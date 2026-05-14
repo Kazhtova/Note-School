@@ -114,12 +114,10 @@ input:focus {
 
 input[readonly] { cursor: not-allowed; background: rgba(0,0,0,0.2); }
 
-/* Submit Button */
 .btn-submit {
     width: 100%;
-    /* Updated gradient to Emerald */
     background: linear-gradient(135deg, var(--accent), #059669);
-    color: #022c22; /* High contrast text */
+    color: #022c22; 
     border: none;
     padding: 16px;
     border-radius: 14px;
