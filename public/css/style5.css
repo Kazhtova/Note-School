@@ -118,7 +118,7 @@ input[readonly] { cursor: not-allowed; background: rgba(0,0,0,0.2); }
 .btn-submit {
     width: 100%;
     background: linear-gradient(135deg, var(--accent), #059669);
-    color: #022c22; /* High contrast text */
+    color: #022c22;
     border: none;
     padding: 16px;
     border-radius: 14px;
@@ -137,7 +137,6 @@ input[readonly] { cursor: not-allowed; background: rgba(0,0,0,0.2); }
     box-shadow: 0 15px 30px -5px rgba(16, 185, 129, 0.4);
 }
 
-/* Footer Note */
 .footer-note {
     text-align: center;
     margin-top: 25px;
