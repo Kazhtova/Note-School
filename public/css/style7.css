@@ -98,14 +98,15 @@
     font-size: 0.9rem;
     transition: all 0.3s ease;
 }
-
+/*  */
 .search-input:focus {
     outline: none;
     border-color: var(--primary, #10b981);
     box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
     background-color: rgba(15, 23, 42, 0.8);
 }
-
+/*  */
 .search-input::placeholder {
     color: var(--text-muted, #94a3b8);
 }
+/*  */
