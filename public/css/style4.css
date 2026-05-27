@@ -143,12 +143,10 @@ input:focus {
     border-radius: 8px;
     color: var(--text-muted);
     
-    /* Typography & Fixes */
     text-align: center;
     line-height: 1;    
     text-decoration: none; 
     
-    /* Interaction */
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
