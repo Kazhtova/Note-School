@@ -23,14 +23,12 @@
             overflow: hidden;
         }
 
-        /* --- LAYOUT UTAMA: SPLIT SCREEN --- */
         .split-screen {
             display: flex;
             height: 100vh;
             width: 100%;
         }
 
-        /* --- BAGIAN KIRI (VISUAL) --- */
         .left-panel {
             flex: 1; /* Mengambil 50% lebar */
             background: radial-gradient(circle at 10% 20%, #1e293b 0%, #020617 100%);
