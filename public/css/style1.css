@@ -26,7 +26,6 @@
             display: flex; 
         }
 
-        /* --- 3. SIDEBAR (Kiri) --- */
         .sidebar {
             width: 260px;
             background-color: rgba(15, 23, 42, 0.8);
@@ -89,7 +88,6 @@
             box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
         }
 
-        /* --- 4. MAIN CONTENT (Kanan) --- */
         .main-content {
             flex: 1; /* Mengambil sisa ruang */
             padding: 2rem;
