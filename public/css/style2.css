@@ -9,7 +9,6 @@
             --border-glass: rgba(255, 255, 255, 0.1); 
         }
 
-        /* --- GLOBAL RESET --- */
         * {
             margin: 0;
             padding: 0;
@@ -21,7 +20,7 @@
             background-color: var(--bg-dark);
             color: var(--text-main);
             height: 100vh;
-            overflow: hidden; /* Mencegah scroll bar ganda */
+            overflow: hidden;
         }
 
         /* --- LAYOUT UTAMA: SPLIT SCREEN --- */
