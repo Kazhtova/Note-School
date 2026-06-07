@@ -22,8 +22,8 @@
             background-image: radial-gradient(circle at 80% 10%, #1e293b 0%, #020617 80%);
             color: var(--text-main);
             height: 100vh;
-            overflow: hidden; /* Mencegah scroll pada body utama */
-            display: flex; /* Layout Flexbox untuk Sidebar + Content */
+            overflow: hidden; 
+            display: flex; 
         }
 
         /* --- 3. SIDEBAR (Kiri) --- */
