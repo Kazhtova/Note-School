@@ -3,8 +3,8 @@
     --primary-hover: #34d399; 
     --primary-glow: rgba(16, 185, 129, 0.5); 
     
-    --bg-dark: #0f172a; /* Latar belakang utama (Deep Slate) */
-    --bg-card: rgba(30, 41, 59, 0.7); /* Transparan untuk efek kaca */
+    --bg-dark: #0f172a;
+    --bg-card: rgba(30, 41, 59, 0.7);
     --bg-input: #1e293b; /* Input lebih gelap dari card */
     
     --text-main: #f1f5f9; /* Putih tulang (tidak sakit di mata) */
