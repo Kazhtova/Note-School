@@ -1,7 +1,6 @@
 .form-container {
         max-width: 800px;
         margin: 0 auto;
-        /* Kotak utama */
     }
 
     .form-group {
@@ -65,4 +64,6 @@
         padding-top: 1.5rem;
         border-top: 1px solid var(--border);
         justify-content: flex-end;
+        /* Memindahkan tombol aksi ke kanan */
+        /* Baru */
     }
