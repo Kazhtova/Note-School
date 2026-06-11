@@ -56,7 +56,7 @@
     .btn-secondary:hover {
         background: rgba(255, 255, 255, 0.05);
     }
-
+/*  */
     .form-actions {
         display: flex;
         gap: 1rem;
@@ -65,3 +65,4 @@
         border-top: 1px solid var(--border);
         justify-content: flex-end;
     }
+    /*  */
