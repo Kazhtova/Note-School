@@ -63,7 +63,6 @@ body {
 .form-title { font-family: 'Syne', sans-serif; font-size: 1.75rem; }
 .form-subtitle { color: var(--text-dim); font-size: 0.9rem; margin-top: 10px; }
 
-/* Glass Card */
 .glass-card {
     background: var(--card-bg);
     backdrop-filter: blur(12px);
@@ -73,7 +72,6 @@ body {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
 }
 
-/* Inputs */
 .input-group { margin-bottom: 25px; }
 .input-group.muted { opacity: 0.6; }
 
