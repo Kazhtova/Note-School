@@ -69,10 +69,9 @@ body {
 table { 
     width: 100%; 
     border-collapse: collapse; 
-    min-width: 600px; /* Mencegah tabel terlalu ciut */
+    min-width: 600px; 
 }
 
-/* Mengatur Jarak Header Tabel */
 th {
     background: rgba(255, 255, 255, 0.03);
     padding: 20px 24px; 
