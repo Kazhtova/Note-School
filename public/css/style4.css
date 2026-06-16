@@ -128,7 +128,6 @@ input:focus {
 }
 
 .btn-secondary {
-    /* Layout - Centering */
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -136,7 +135,7 @@ input:focus {
     
     /* Sizing */
     width: fit-content;
-    min-width: 140px; /* Sedikit dilebar agar teks tidak sesak */
+    min-width: 140px; 
     padding: 10px 10px;
     margin: 14px 0 28px 0;
 
