@@ -31,7 +31,6 @@ body {
 
 .form-container { width: 100%; max-width: 480px; }
 
-/* Back Link */
 .back-link {
     display: inline-flex;
     align-items: center;
@@ -44,7 +43,6 @@ body {
 }
 .back-link:hover { color: var(--accent); }
 
-/* Header */
 .form-header {
     display: flex;
     align-items: center;
