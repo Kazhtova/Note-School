@@ -51,7 +51,6 @@ body {
 }
 
 .header-icon {
-    /* Updated gradient to Emerald */
     background: linear-gradient(135deg, var(--accent), #059669);
     width: 56px;
     height: 56px;
@@ -59,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #022c22; /* High contrast text */
+    color: #022c22; 
 }
 
 .form-title { font-family: 'Syne', sans-serif; font-size: 1.75rem; }
