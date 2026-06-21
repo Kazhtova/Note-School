@@ -71,7 +71,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    flex-wrap: wrap; /* Mencegah elemen bertumpuk di layar HP */
+    flex-wrap: wrap;
 }
 
 .search-wrapper {
@@ -87,7 +87,7 @@
     color: var(--text-muted, #94a3b8);
     width: 18px;
     height: 18px;
-    pointer-events: none; /* Mencegah ikon menghalangi klik ke input */
+    pointer-events: none; 
 }
 
 .search-input {
