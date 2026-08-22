@@ -1,2 +1,2 @@
 # Note-School
-Proyek ini dikembangkan sebagai tugas akhir kelas 11 oleh siswa SMK jurusan Rekayasa Perangkat Lunak (RPL). Aplikasi ini merupakan implementasi praktis dari prinsip dasar rekayasa perangkat lunak, teknologi web modern, serta arsitektur backend yang dipelajari selama masa studi kejuruan.
+This project was developed as a final capstone assignment by a sophomore vocational high school student majoring in Software Engineering (RPL). It serves as a practical application of core software development principles, modern web technologies, and backend architecture learned throughout the vocational curriculum.
