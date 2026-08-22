@@ -1,2 +1,2 @@
 # Note-School
-This project is a school assignment which is one of the final assignments for a vocational school student majoring in software engineering.
+Proyek ini dikembangkan sebagai tugas akhir kelas 11 oleh siswa SMK jurusan Rekayasa Perangkat Lunak (RPL). Aplikasi ini merupakan implementasi praktis dari prinsip dasar rekayasa perangkat lunak, teknologi web modern, serta arsitektur backend yang dipelajari selama masa studi kejuruan.
