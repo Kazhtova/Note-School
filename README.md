@@ -6,7 +6,7 @@
 
 This project was developed as a final capstone assignment by a sophomore vocational high school student majoring in Software Engineering (RPL). It serves as a practical application of core software development principles, modern web technologies, and backend architecture learned throughout the vocational curriculum.
 
-## 🎯 Overview (Ringkasan Proyek)
+##  Overview (Ringkasan Proyek)
 Note-School is a comprehensive note management system designed for educational environments. Beyond a functional user interface, this project emphasizes a robust backend architecture to ensure data integrity, role-based security, and query performance.
 
 ## 🚀 Core Features (Fitur Utama)
