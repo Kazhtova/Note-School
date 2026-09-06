@@ -9,7 +9,7 @@ This project was developed as a final capstone assignment by a sophomore vocatio
 ## Overview (Ringkasan Proyek)
 Note-School is a comprehensive note management system designed for educational environments. Beyond a functional user interface, this project emphasizes a robust backend architecture to ensure data integrity, role-based security, and query performance.
 
-## 🚀 Core Features (Fitur Utama)
+##  Core Features (Fitur Utama)
 *   **Secure Authentication & Authorization:** Role-based access control (RBAC) to securely separate student data, teacher access, and administrator privileges.
 *   **Relational Data Management:** Efficient database schema design linking users, subjects, and their respective notes.
 *   **Robust CRUD Operations:** Seamless creation, retrieval, updating, and deletion of academic notes with strict backend validation.
