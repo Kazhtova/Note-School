@@ -18,7 +18,7 @@ Note-School is a comprehensive note management system designed for educational e
 ## Tech Stack (Teknologi yang Digunakan)
 *   **Backend:** PHP (Laravel Framework)
 *   **Database:** MySQL / PostgreSQL.
-*   **Architecture:** MVC (Model-View-Controller) / Service Pattern
+*   **Architecture:** MVC (Model-View-Controller) / Service Pattern.
 
 ## Getting Started (Cara Menjalankan Proyek)
 
