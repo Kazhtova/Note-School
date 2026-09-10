@@ -16,7 +16,7 @@ Note-School is a comprehensive note management system designed for educational e
 *   **RESTful Architecture:** Built with decoupled API principles in mind, laying the groundwork for future integrations with modern frontends (like Next.js).
 
 ## Tech Stack (Teknologi yang Digunakan)
-*   **Backend:** PHP (Laravel Framework)
+*   **Backend:** PHP (Laravel Framework).
 *   **Database:** MySQL / PostgreSQL.
 *   **Architecture:** MVC (Model-View-Controller) / Service Pattern.
 
