@@ -52,3 +52,4 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     ```bash
     php artisan serve
     ```
+Trigger Pair Extraordinaire
