@@ -44,7 +44,3 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     cp .env.example .env
     php artisan key:generate
     ```
-4.  **Database Migration & Seeding:**
-    ```bash
-    php artisan migrate --seed
-    ```
