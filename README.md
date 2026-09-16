@@ -35,8 +35,4 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     git clone [https://github.com/yourusername/Note-School.git](https://github.com/yourusername/Note-School.git)
     cd Note-School
     ```
-2.  **Install dependencies:**
-    ```bash
-    composer install
-    ```
 
