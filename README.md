@@ -34,5 +34,4 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     ```bash
     git clone [https://github.com/yourusername/Note-School.git](https://github.com/yourusername/Note-School.git)
     cd Note-School
-    ```
 
