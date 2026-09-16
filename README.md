@@ -39,8 +39,4 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     ```bash
     composer install
     ```
-3.  **Environment Setup:**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
+
