@@ -48,7 +48,3 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     ```bash
     php artisan migrate --seed
     ```
-5.  **Run Development Server:**
-    ```bash
-    php artisan serve
-    ```
