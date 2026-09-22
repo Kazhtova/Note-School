@@ -23,6 +23,8 @@ Note-School is a comprehensive note management system designed for educational e
 
 ## Getting Started (Cara Menjalankan Proyek)
 
+---
+
 ### Prerequisites (Prasyarat)
 Ensure you have the following installed on your local environment (e.g., Linux/Docker):
 *   PHP >= 8.1
