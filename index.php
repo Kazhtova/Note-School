@@ -90,3 +90,5 @@ switch ($action) {
 
 }
 ?>
+
+<!-- Tatkala hidup adalah penderitaan -->
