@@ -1,4 +1,5 @@
 <script>
+// Alert Documentation
 document.querySelectorAll('.delete-btn').forEach(button => {
     button.addEventListener('click', function(e) {
         e.preventDefault();
