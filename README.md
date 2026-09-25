@@ -38,25 +38,3 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
     ```bash
     git clone [https://github.com/yourusername/Note-School.git](https://github.com/yourusername/Note-School.git)
     cd Note-School
-<<<<<<< HEAD
-    ```
-2.  **Install dependencies:**
-    ```bash
-    composer install
-    ```
-3.  **Environment Setup:**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-4.  **Database Migration & Seeding:**
-    ```bash
-    php artisan migrate --seed
-    ```
-5.  **Run Development Server:**
-    ```bash
-    php artisan serve
-    ```
-=======
-
->>>>>>> bfd438af537e0c4393f1bf54471ca025d9e49e7a

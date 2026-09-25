@@ -24,5 +24,3 @@ document.querySelectorAll('.delete-btn').forEach(button => {
     });
 });
 </script>
-
-<!-- G penting -->
