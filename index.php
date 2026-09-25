@@ -87,6 +87,6 @@ switch ($action) {
     default:
     $AdminController->index();
     break;
-
+// Git add
 }
 ?>
