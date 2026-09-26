@@ -1,4 +1,3 @@
-    /* --- 1. VARIABLES (Sama dengan Login agar Konsisten) --- */
         :root {
             --primary: #10b981;
             --primary-glow: rgba(16, 185, 129, 0.4);
@@ -10,7 +9,6 @@
             --border-glass: rgba(255, 255, 255, 0.05);
         }
 
-        /* --- 2. GLOBAL RESET --- */
         * {
             margin: 0;
             padding: 0;
