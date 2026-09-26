@@ -118,7 +118,7 @@ input:focus {
 
 .btn-primary {
     background: var(--primary);
-    color: #022c22; /* High contrast text */
+    color: #022c22; 
 }
 
 .btn-primary:hover {
@@ -147,9 +147,9 @@ input:focus {
     color: var(--text-muted);
     
     /* Typography & Fixes */
-    text-align: center; /* Tambahan untuk memastikan inline text */
-    line-height: 1;      /* Menghilangkan ekstra space vertikal */
-    text-decoration: none; /* Jika tombol menggunakan tag <a> */
+    text-align: center;
+    line-height: 1;    
+    text-decoration: none; 
     
     /* Interaction */
     cursor: pointer;
