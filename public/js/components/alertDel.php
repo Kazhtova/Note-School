@@ -1,5 +1,4 @@
 <script>
-// Alert Documentation apa
 document.querySelectorAll('.delete-btn').forEach(button => {
     button.addEventListener('click', function(e) {
         e.preventDefault();
