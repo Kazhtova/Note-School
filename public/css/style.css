@@ -1,8 +1,7 @@
-/* --- VARIABLES (DARK THEME) --- */
 :root {
-    --primary-color: #10b981; /* Emerald Neon */
-    --primary-hover: #34d399; /* Lebih terang saat hover */
-    --primary-glow: rgba(16, 185, 129, 0.5); /* Efek cahaya */
+    --primary-color: #10b981; 
+    --primary-hover: #34d399; 
+    --primary-glow: rgba(16, 185, 129, 0.5); 
     
     --bg-dark: #0f172a; /* Latar belakang utama (Deep Slate) */
     --bg-card: rgba(30, 41, 59, 0.7); /* Transparan untuk efek kaca */
