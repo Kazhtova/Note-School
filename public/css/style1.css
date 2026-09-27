@@ -87,14 +87,13 @@
             color: white;
             box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
         }
-
+/*  */
         .main-content {
             flex: 1;
             padding: 2rem;
             overflow-y: auto;
         }
 
-        /* Header atas */
         .header-top {
             display: flex;
             justify-content: space-between;
