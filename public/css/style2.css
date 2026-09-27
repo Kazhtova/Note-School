@@ -79,9 +79,8 @@
             line-height: 1.6;
         }
 
-        /* --- BAGIAN KANAN (FORM) --- */
         .right-panel {
-            flex: 1; /* Mengambil 50% lebar */
+            flex: 1; 
             background-color: var(--bg-dark);
             display: flex;
             align-items: center;
