@@ -118,7 +118,6 @@ th:nth-child(4), td:nth-child(4) { width: 150px; text-align: center; } /* Kolom 
 .btn-edit:hover { background: rgba(245, 158, 11, 0.1); color: var(--warning); border-color: var(--warning); }
 .btn-delete:hover { background: rgba(239, 68, 68, 0.1); color: var(--danger); border-color: var(--danger); }
 
-/* Badges */
 .admin-badge {
     display: inline-flex;
     align-items: center;
