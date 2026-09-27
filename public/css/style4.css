@@ -151,7 +151,6 @@ input:focus {
     transition: all 0.2s ease-in-out;
 }
 
-/* Pastikan elemen di dalam (ikon/span) tidak punya margin bawaan */
 .btn-secondary * {
     margin: 0;
     padding: 0;
