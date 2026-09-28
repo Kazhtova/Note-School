@@ -35,6 +35,8 @@ Ensure you have the following installed on your local environment (e.g., Linux/D
 *   Composer
 *   MySQL/MariaDB
 
+---
+
 ### Installation Steps (Langkah Instalasi)
 1.  **Clone the repository:**
     ```bash
