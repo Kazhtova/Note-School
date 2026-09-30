@@ -29,20 +29,18 @@ body {
     color: var(--text-main);
 }
 
-/* Container */
 .container {
     width: 100%;
     max-width: 420px;
 }
 
-/* Kartu Dark Glassmorphism */
 .card {
     background-color: var(--bg-card);
     padding: 3rem 2.5rem;
     border-radius: 16px;
-    /* Border tipis transparan agar terlihat seperti kaca */
+
     border: 1px solid var(--border-glass); 
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); /* Bayangan dalam */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); 
     /* backdrop-filter: blur(12px); */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
