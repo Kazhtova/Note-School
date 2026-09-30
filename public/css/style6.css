@@ -144,7 +144,6 @@ input[readonly] { cursor: not-allowed; background: rgba(0,0,0,0.2); }
     color: var(--text-dim);
 }
 
-/* Alert */
 .status-alert {
     background: rgba(248, 113, 113, 0.1);
     border: 1px solid var(--error);
