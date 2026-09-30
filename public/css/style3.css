@@ -89,9 +89,7 @@ td {
     font-size: 0.95rem; 
     vertical-align: middle; 
 }
-/*  */
 tr:hover td { background: rgba(255, 255, 255, 0.02); }
-
 th:nth-child(1), td:nth-child(1) { width: 80px; text-align: center; } /* Kolom No */
 th:nth-child(2), td:nth-child(2) { width: auto; } /* Kolom Nama Kategori fleksibel */
 th:nth-child(3), td:nth-child(3) { width: 250px; } /* Kolom Dibuat Oleh */
