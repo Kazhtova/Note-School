@@ -9,10 +9,9 @@
     --text-main: #f1f5f9; 
     --text-muted: #94a3b8; 
     
-    --border-glass: rgba(255, 255, 255, 0.1); /* Garis tepi halus */
+    --border-glass: rgba(255, 255, 255, 0.1);
 }
 
-/* Reset Dasar */
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* Background Mewah dengan Spotlight Effect */
 body {
     background-color: #020617;
     /* Membuat efek sorotan cahaya dari atas tengah */
