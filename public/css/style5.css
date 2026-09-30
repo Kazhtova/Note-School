@@ -28,8 +28,6 @@ body {
     padding: 40px 20px;
 }
 
-/* Awh */
-
 .form-container { width: 100%; max-width: 480px; }
 
 .back-link {
@@ -43,7 +41,7 @@ body {
     transition: 0.3s;
 }
 .back-link:hover { color: var(--accent); }
-
+/*  */
 .form-header {
     display: flex;
     align-items: center;
