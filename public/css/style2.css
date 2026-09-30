@@ -181,15 +181,14 @@
             text-decoration: underline;
         }
 
-        /* --- RESPONSIVE (Mobile) --- */
         @media (max-width: 768px) {
             .split-screen {
-                flex-direction: column; /* Stack vertikal di HP */
+                flex-direction: column;
                 height: auto;
                 min-height: 100vh;
             }
             .left-panel {
-                display: none; /* Sembunyikan panel dekoratif di HP agar fokus */
+                display: none;
             }
             .right-panel {
                 padding: 2rem 1.5rem;
