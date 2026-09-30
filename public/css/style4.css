@@ -149,20 +149,20 @@ input:focus {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
-
+/*  */
 .btn-secondary * {
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
 }
-
+/*  */
 .btn-secondary:hover {
     background: rgba(14,177,129,0.4);
     box-shadow: 0 10px 20px -5px rgba(16, 185, 129, 0.4);
     color: var(--text-main);
 }
-
+/*  */
 .alert {
     background: rgba(239, 68, 68, 0.1);
     border: 1px solid rgba(239, 68, 68, 0.2);
@@ -175,3 +175,4 @@ input:focus {
     gap: 12px;
     font-size: 0.9rem;
 }
+/*  */
