@@ -2,7 +2,7 @@
         max-width: 800px;
         margin: 0 auto;
     }
-/*  */
+
     .form-group {
         margin-bottom: 1.5rem;
     }
@@ -14,7 +14,7 @@
         color: var(--text-main, #f8fafc);
         font-size: 0.95rem;
     }
-/*  */
+
     .form-control {
         width: 100%;
         padding: 0.875rem 1rem;
