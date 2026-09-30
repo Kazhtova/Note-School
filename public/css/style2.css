@@ -92,7 +92,6 @@
         .form-container {
             width: 100%;
             max-width: 400px;
-            /* Kita hapus "card" border agar menyatu dengan background (Seamless) */
         }
 
         .form-header {
@@ -111,7 +110,6 @@
             color: var(--text-muted);
         }
 
-        /* --- FORM ELEMENTS (Sama dengan sebelumnya) --- */
         form div {
             margin-bottom: 1.5rem;
         }
@@ -128,7 +126,7 @@
         input[type="password"] {
             width: 100%;
             padding: 14px 16px;
-            background-color: var(--bg-panel); /* Input sedikit lebih terang dari bg */
+            background-color: var(--bg-panel);
             border: 1px solid var(--border-glass);
             border-radius: 10px;
             font-size: 0.95rem;
