@@ -100,7 +100,6 @@ input:focus {
     box-shadow: 0 0 0 4px var(--primary-glow);
 }
 
-/* Button Refinement */
 .btn {
     width: 100%;
     display: flex;
