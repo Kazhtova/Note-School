@@ -7,10 +7,9 @@
     --text-dim: #94a3b8;
     --error: #f87171;
 }
-
-
+/*  */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
+/*  */
 body {
     background-color: var(--bg-main);
     background-image: 
@@ -20,7 +19,7 @@ body {
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
 }
-
+/*  */
 .edit-layout {
     display: flex;
     justify-content: center;
@@ -28,7 +27,7 @@ body {
     min-height: 100vh;
     padding: 40px 20px;
 }
-
+/*  */
 .form-container { width: 100%; max-width: 480px; }
 
 .back-link {
